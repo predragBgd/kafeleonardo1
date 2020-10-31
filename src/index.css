@@ -1,13 +1,107 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  background-color: #1a1919;
+  /* background: url(./foto/pozadina.jpg); */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+  color: wheat;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: wheat;
+}
+.bg-dark  {
+  background-color: #1a1819;
+}
+.navbar-light .navbar-toggler-icon {
+  background-color: wheat;
+}
+.card {
+  border: teal;
+}
+#pocetna .card-title {
+  text-align: center;
+}
+#pocetna .card-body {
+  text-align: left;
+  background-color: teal;
+}
+
+#galerija {
+  padding: 10px 0 0 0 ;
+}
+#galerija h3{
+  text-align: center;
+  background: #d8bfd8;
+  padding: 0;
+}
+.galerija-foto {
+  margin: 5px;
+}
+#meni {
+  padding: 5px 0 5px 0 ;
+  text-align: left;
+}
+#meni h3 {
+  text-align: center;
+  background: #d8bfd8;
+  padding: 0;
+}
+
+#meni h5 {
+  text-align: center;
+}
+.text {
+  background: teal;
+}
+.tabela {
+  background: wheat;
+  margin-top: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.table  thead th {
+  background: white;
+}
+
+#kontakt {
+  background-color: #1a1819;
+  border-radius: 0;
+  width: 100%;
+}
+#kontakt div {
+  float: left;
+  background-color: teal;
+  border-radius: 0;
+  width: 100%;
+}
+
+#kontakt h3 {
+  text-align: center;
+  background: #d8bfd8;
+  border-radius: 0px;
+}
+#kontakt a {
+  color: wheat;
+}
+.adresa {
+  width: 30%;
+}
+.parola {
+  width: 30%;
+}.mapa {
+  width: 30%;
+}
+.footer p {
+  color: bisque;
+  text-align: center;
 }
